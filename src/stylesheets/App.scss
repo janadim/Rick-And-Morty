@@ -13,14 +13,15 @@
 
 .form {
   display: block;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 4px #000803;
+  text-shadow: 2px 2px 2px #6a6d6b;
   
 }
 .nameLabel {
   font-size: 30px;
   display: block;
   padding: 20px 55px;
+  color: #000000;
+  
 }
 .chng {
   animation-name: chngsearch;
@@ -76,11 +77,6 @@
   }
 }
 
-// .change:hover {
-//   animation-name: anicards;
-//   animation-timing-function: ease-in-out;
-//   animation-duration: 0.75s;
-// }
 
 .card:hover{
   background-color: transparentize(#fff066, 0.3);
