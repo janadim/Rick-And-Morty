@@ -53,21 +53,23 @@ function App() {
   };
 
   return (
-    <section className="main-container">
-      
-      <Header/>
-      <Switch>
-        <Route exact path="/">
-          <div className="list-container">
-            
-            <FilterByName handleFilter={handleFilter} filterName={filterName} />
-            <CharacterList chars={filteredChars} filterName={filterName} />
-          </div>
-        </Route>
-        <Route path="/character/:id" render={renderCharDetail} />
-      </Switch>
-      <Footer/>
-    </section>
+    <>
+      <section className="main-container">
+        <Header/>
+        <Switch>
+          <Route exact path="/">
+            <div className="list-container">
+              
+              <FilterByName handleFilter={handleFilter} filterName={filterName} />
+              <CharacterList chars={filteredChars} filterName={filterName} />
+            </div>
+          </Route>
+          <Route path="/character/:id" render={renderCharDetail} />
+        </Switch>
+        <Footer/>
+      </section>
+     
+    </>
   );
 }
 export default App;

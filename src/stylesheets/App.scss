@@ -8,6 +8,7 @@
   flex-wrap: wrap;
   align-items: center;
   transition: wrap 0.5s; 
+  padding-bottom: 10%;
 }
 
 .form {
@@ -114,7 +115,6 @@
 }
 .details-container {
   width: 50%;
-  
   display: flex;
   border: 2px solid chartreuse;
   // justify-content: center;
@@ -127,6 +127,7 @@
     // justify-content: space-between;
     // height: 290px;
     width: 50%;
+    position: relative;
   }
 }
 
@@ -175,6 +176,10 @@
   // margin-left: 5%;
 }
 .footer{
-  background-color: #080808;
-  height: 10%;
+  position: fixed;
+  background-color: #070707;
+  height: 5%;
+  bottom: 0;
+  width: 100%;
+  padding-top: 6px;
 }
