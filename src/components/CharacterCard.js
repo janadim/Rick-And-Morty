@@ -5,7 +5,7 @@ const CharacterCard = (props) => {
     <Link to={`/character/${props.eachChar.id}`}>
       
         
-      <div className="card">
+      <div className="card grow">
         <img
           src={props.eachChar.image}
           alt={props.eachChar.name}

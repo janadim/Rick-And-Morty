@@ -76,18 +76,23 @@
   }
 }
 
-.change:hover {
-  animation-name: anicards;
-  animation-timing-function: ease-in-out;
-  animation-duration: 0.75s;
-}
+// .change:hover {
+//   animation-name: anicards;
+//   animation-timing-function: ease-in-out;
+//   animation-duration: 0.75s;
+// }
 
+.card:hover{
+  background-color: transparentize(#fff066, 0.3);
+  width: 240px;
+}
 .card{
   align-items: center;
   width: 250px;
   height: 280px;
   border-radius: 8px;
   background-color: transparentize(#c2c8c9, 0.3);
+  
   &__img {
     display: block;
     margin: auto;
@@ -107,8 +112,7 @@
     text-align: center;
   }
 }
-
-
+  
 
 .details-container {
   width: 50%;
@@ -155,18 +159,18 @@
   text-shadow: 2px 2px 4px #000000;
   font-size: 24px;
   text-align: center;
-  @media (min-width: 768px) {
-    // display: inline-block;
-  }
 }
 .img-details{
   border-radius: 8px;
-  width: 200px;
-  height: 220px;
+  width: 160px;
+  height: 180px;
   border: 2px solid #02282e;
   margin: 2%;
   align-self: center;
-  // margin-left: 5%;
+  @media all and(min-width: 768px){
+    width: 200px;
+    height: 220px;
+  }
 }
 .footer{
   position: fixed;
