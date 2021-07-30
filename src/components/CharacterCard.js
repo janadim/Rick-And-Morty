@@ -10,10 +10,10 @@ const CharacterCard = (props) => {
           src={props.eachChar.image}
           alt={props.eachChar.name}
           title={props.eachChar.name}
-          className="li-img"
+          className="card__img"
         />
-        <h4 className="charName">{props.eachChar.name}</h4>
-        <p className="charSpec">{props.eachChar.species}</p>
+        <h4 className="card__charName">{props.eachChar.name}</h4>
+        <p className="card__charSpec">{props.eachChar.species}</p>
       </div>
         
       

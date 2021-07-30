@@ -8,7 +8,7 @@
   flex-wrap: wrap;
   align-items: center;
   transition: wrap 0.5s; 
-  padding-bottom: 10%;
+  padding-bottom: 7%;
 }
 
 .form {
@@ -46,7 +46,7 @@
   font-size: 24px;
   padding: 10px;
   background-color: #dafaff;
-  box-shadow: 4px 3px 5px #90c746;
+  box-shadow: 4px 3px 5px #1a240c;
 }
 .charList {
   display: grid;
@@ -83,50 +83,43 @@
 }
 
 .card{
-  
   align-items: center;
   width: 250px;
   height: 280px;
-  // background-color: rgb(255, 255, 255);
   border-radius: 8px;
   background-color: transparentize(#c2c8c9, 0.3);
-}
-.li-img {
-  display: block;
-  margin: auto;
-  // margin-top: 10px;
-  // margin-right: auto;
-  width: 80%;
-  border-radius: 8px;
-  // margin-top: 5px;
-  border: 2px solid rgb(70, 69, 69)
+  &__img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    border: 2px solid rgb(70, 69, 69)
+  }
+  &__charName {
+    background-color: #c2c8c9;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding-top: 5px;
+  }
+  &__charSpec {
+    background-color: #c2c8c9;
+    text-align: center;
+  }
 }
 
-.charName {
-  background-color: #c2c8c9;
-  font-size: 20px;
-  color: black;
-  text-align: center;
-  padding-top: 5px;
-}
-.charSpec {
-  background-color: #c2c8c9;
-  text-align: center;
-}
+
+
 .details-container {
   width: 50%;
   display: flex;
   border: 2px solid chartreuse;
-  // justify-content: center;
   margin: auto;
   flex-direction: column;
   border-radius: 8px;
   background-color: transparentize(#c2c8c9, 0.3);
   @media (min-width: 768px) {
     flex-direction: row;
-    // justify-content: space-between;
-    // height: 290px;
-    width: 50%;
     position: relative;
   }
 }
