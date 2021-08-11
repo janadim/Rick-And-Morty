@@ -1,9 +1,9 @@
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <footer className="footer">
         <small> Created by Jana D. Titarchuk &copy; 2021</small>
-    </div>   
+    </footer>   
   );
 };
 export default Footer;
